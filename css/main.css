@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+  --main-color: #0ef;
+  --transition: 0.4s;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+  color: #777;
+  line-height: 1.7;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  color: #222;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+/* a:hover {
+  color: var(--main-color);
+} */
+
+/* img {
+  width: 100%;
+} */
+
+/* ================== */
+.navbar .navbar-nav .nav-item {
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.navbar .navbar-brand img {
+  width: 80px;
+  margin-left: 5px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.landing {
+  background-image: url(../images/main.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh);
+}
+
+/* login  */
+.container {
+  /* width: 300px; */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+#message {
+  margin-top: 20px;
+  color: red;
+}
+
+/* login  */
+
+.btn {
+  /* border: 0; */
+  padding: 14px 30px;
+}
+
+.btn-brand {
+  color: #333;
+  background-color: var(--main-color);
+  font-size: 20px;
+}
+
+/* term */
+.term {
+  cursor: pointer;
+}
+
+/* term */
+/* footer */
+.footer h1 {
+  color: var(--main-color);
+}
+
+.footer .footer-link .footer-list li a {
+  color: #fff;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.footer .footer-link .footer-list li a:hover {
+  color: var(--main-color);
+}
+
+.footer .gmail {
+  color: var(--main-color);
+}
+
+.footer .phone {
+  color: var(--main-color);
+}
+
+.footer .desgin {
+  color: var(--main-color);
+}
+
+.footer .end-footer .icon {
+  color: var(--main-color);
+}
+
+.footer .cloor {
+  color: var(--main-color);
+}
+
+/* footer */
