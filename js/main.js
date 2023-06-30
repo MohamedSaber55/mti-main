@@ -23,7 +23,7 @@ document.getElementById("login-form").addEventListener("submit", function (event
 
     if (username === "admin" && password === "password") {
         document.getElementById("message").innerHTML = "تم تسجيل الدخول بنجاح!";
-        window.location.href = "../login.html";
+        window.location.href = "login.html";
     } else {
         document.getElementById("message").innerHTML = "اسم المستخدم أو كلمة المرور غير صحيحة!";
     }
